@@ -36,7 +36,7 @@ I first tried Lenet for training a model. However, after times of trying, I foun
 Training Set and Validation Set
 -------------------------------
 
-I use the generator function provided on Udacity¡¯s course. I also do a little change on it to augment data. I randomly choose the camera image. If it is the right camera, the angel will minus -0.25, if it is the left camera, the angle will add 0.25. Also, I flip the image horizontally to generalize the data.
+I use the generator function provided on Udacity's course. I also do a little change on it to augment data. I randomly choose the camera image. If it is the right camera, the angel will minus -0.25, if it is the left camera, the angle will add 0.25. Also, I flip the image horizontally to generalize the data.
 
 Here is the loss:
 
